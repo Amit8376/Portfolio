@@ -1,2 +1,250 @@
-# Portfolio
-MIS Executive Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Kumar | MIS Executive Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,Helvetica,sans-serif;
+        }
+
+        body{
+            background:#f4f8fc;
+            color:#222;
+        }
+
+        header{
+            background:#0d6efd;
+            color:#fff;
+            padding:18px 8%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        header h2{
+            font-size:28px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-weight:bold;
+        }
+
+        .hero{
+            padding:80px 8%;
+            text-align:center;
+            background:white;
+        }
+
+        .hero h1{
+            font-size:52px;
+            color:#0d6efd;
+        }
+
+        .hero h3{
+            margin-top:15px;
+            color:#555;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:30px;
+            padding:14px 28px;
+            background:#0d6efd;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+        }
+
+        section{
+            padding:70px 8%;
+        }
+
+        h2{
+            text-align:center;
+            margin-bottom:35px;
+            color:#0d6efd;
+        }
+
+        .skills{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:25px;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 5px 12px rgba(0,0,0,.1);
+        }
+
+        .projects{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            gap:25px;
+        }
+
+        footer{
+            background:#0d6efd;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+
+<h2>Amit Kumar</h2>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#project">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Amit Kumar</h1>
+
+<h3>MIS Executive | Advanced Excel | Power BI | SQL</h3>
+
+<p style="margin-top:20px;">
+Professional MIS Executive specializing in Dashboard Development,
+Reporting Automation, Data Analysis and Business Intelligence.
+</p>
+
+<a href="#" class="btn">Download Resume</a>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p style="text-align:center;max-width:800px;margin:auto;line-height:30px;">
+
+I am an MIS Executive with strong knowledge of Advanced Excel,
+Power Query, Power BI, SQL and Dashboard Reporting.
+I create professional MIS Reports and Interactive Dashboards
+that help businesses make data-driven decisions.
+
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<div class="card">Advanced Excel</div>
+
+<div class="card">Power Query</div>
+
+<div class="card">Power Pivot</div>
+
+<div class="card">Power BI</div>
+
+<div class="card">SQL</div>
+
+<div class="card">Dashboard Design</div>
+
+<div class="card">MIS Reporting</div>
+
+<div class="card">Data Analysis</div>
+
+</div>
+
+</section>
+
+<section id="project">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+
+<h3>Collection MIS Dashboard</h3>
+
+<p>
+Interactive Dashboard using Pivot Tables,
+Charts, KPI Cards, Slicers and Conditional Formatting.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Sales Dashboard</h3>
+
+<p>
+Professional Sales Analysis Dashboard
+with Monthly Sales, Revenue and KPI Reports.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>HR Dashboard</h3>
+
+<p>
+Employee Attendance, Attrition,
+Performance and HR Reporting Dashboard.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p style="text-align:center;">
+📧 Email : yourmail@gmail.com
+</p>
+
+<p style="text-align:center;margin-top:10px;">
+💼 LinkedIn : linkedin.com/in/amitkumar
+</p>
+
+<p style="text-align:center;margin-top:10px;">
+💻 GitHub : github.com/Amit8376
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Amit Kumar | MIS Executive Portfolio
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
